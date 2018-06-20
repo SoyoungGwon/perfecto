@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/respond.css">
+    <title>Perpect O</title>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript">
+	window.onload = function(){
+	    var mymap = document.getElementById('map');
+	    var latlng = new google.maps.LatLng(40.643180,-73.9874068);
+	    var gmap = new google.maps.Map(
+	        mymap, {
+	        zoom: 16,
+	        center: latlng,
+	        mapTypeId: google.maps.MapTypeId.ROADMAP
+	    });
+	    // ICON pointer
+	    var marker = new google.maps.Marker({
+	        position: latlng,
+	        map: gmap,
+	        title:'9870 St Vincent Place, Glasgow, DC 45 Fr 45. 800 2345-6789<'
+	    });
+	   
+	};
+	</script>
+
+		
+</head>
+<body>
+
+<dl class="skip">
+    <dt class="blind">Skip Navigation</dt>
+    <dd><a href="#contents">Skip to contents</a></dd>
+</dl>
+<hr>
+<div id="header">
+ 
+  <div class="phone-nav blind">
+    <img src="images/list.svg"><span>Home</span>
+    <div class="phone-sub">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Rooms</a>
+      <a href="#contacts">Contacts</a>
+    </div>
+  </div>
+
+	<div class="header-title">
+        <h1 class="header-title-image">perfectO</h1>
+        <p class="header-subtitle">Book a room at our hotel now and get a discount of 30%</p>
+        <a href="#" class="btn">Order Now!</a>
+    </div>
+    <h1 class="logo"><a href="#"><img src="images/logo.png" alt="Perfect O"></a></h1>
+    
+    <h2 class="blind">Main Navigation</h2>
+	<ul class="nav clearfix">
+		<li class="nav1">
+		<a href="#" class="nav1Btn nav1Btn1 on"><span>Home</span></a>
+		</li>
+		<li class="nav1">
+		<a href="#" class="nav1Btn nav1Btn2"><span>About</span></a>
+			<ul class="sub clearfix">
+				<li class="nav2">
+				<a class="nav2Btn nav2Btn1" href="#"><span>About</span></a>
+				</li>
+				<li class="nav2">
+				<a class="nav2Btn nav2Btn2" href="#"><span>Features</span></a>
+					<ul class="sub2 clearfix">
+						<li class="nav3">
+						<a class="nav3Btn nav3Btn1" href="#"><span>Free Wi-Fi</span></a>
+						</li>
+						<li class="nav3">
+						<a class="nav3Btn nav3Btn2" href="#"><span>Air Conditioning</span></a>
+						</li>
+						<li class="nav3">
+						<a class="nav3Btn nav3Btn3" href="#"><span>Private Bathroom</span></a>
+						</li>
+						<li class="nav3">
+						<a class="nav3Btn nav3Btn4" href="#"><span>Flat-screen TV</span></a>
+						</li>
+						<li class="nav3">
+						<a class="nav3Btn nav3Btn5" href="#"><span>Free Mini-bar</span></a>
+						</li>
+					</ul>
+			</li>
+			<li class="nav2">
+			<a class="nav2Btn nav2Btn3" href="#"><span>Rooms</span></a>
+			</li>
+			<li class="nav2">
+			<a class="nav2Btn nav2Btn4" href="#"><span>News</span></a>
+			</li>
+			<li class="nav2">
+			<a class="nav2Btn nav2Btn5" href="#"><span>Contacts</span></a>
+			</li>
+			</ul>
+		</li>
+		<li class="nav1">
+		<a href="#" class="nav1Btn nav1Btn3"><span>Services</span></a>
+		</li>
+		<li class="nav1">
+		<a href="#" class="nav1Btn nav1Btn4"><span>Rooms</span></a>
+		</li>
+
+		<li class="nav1">
+		<a href="#" class="nav1Btn nav1Btn5"><span>Contacts</span></a>
+		</li>
+	</ul>   
+
+</div>
+<hr>
+<!-- Welcome -->
+<div id="welcome">
+  <a href="#contacts" data-waypoint-to="#contacts" class="marker"><span>Find us</span></a>
+  <div class="welcome-title">
+    <h1>welcome</h1>
+    <div class="divider"></div>
+    <p class="welcome-text">Get away for the holidays, choose our hotel. What distinguishes us from others? A lot of
+      things. Our windows are overlooking the beautiful park. The hotel is located within easy walking
+      distance of city Zoo and Madame Tussauds. The spacious rooms are decorated with traditional wooden
+      furniture and equipped with free Wi-Fi access, flat-screen TVs and private bathrooms.</p>
+    <a href="#" class="btn btn-sm btn-danger">Order Now!</a>
+  </div>
+</div>
+<!-- END Welcome-->
+
+<!-- Features -->
+<div id="features">
+    <h1>features</h1>
+    <div class="divider"></div>
+    <div class="features-pic clearfix">
+		<div class="picture"> 
+		  <a href="#" class="thumb">
+		    <img src="images/page-1_img02.jpg" width="370" height="278" alt="">
+		    <span class="thumb__overlay"></span>
+		  </a>
+		  <h5><a href="#">Free Wi-Fi</a></h5>
+		  <p>Our guests can use Wi-Fi for free throughout the hotel territory. </p>   
+		</div>
+		<div class="picture">
+		  <a href="#" class="thumb">
+		    <img src="images/page-1_img03.jpg" width="370" height="278" alt="">
+		    <span class="thumb__overlay"></span>
+		  </a>
+		  <h5><a href="#">Air Conditioning</a></h5>
+		  <p>Air conditioner is available at every room of our hotel.</p>
+		</div>
+		<div class="picture last">
+		  <a href="#" class="thumb">
+		    <img src="images/page-1_img04.jpg" width="370" height="278" alt="">
+		    <span class="thumb__overlay"></span>
+		  </a>
+		  <h5><a href="#">Private Bathroom</a></h5>
+		  <p>Private bathroom and toilets are to your service, no additional payment is required.</p>
+		</div>
+	  </div>
+    <div class="features-pic features-pic2 clearfix">
+		<div class="picture">
+		  <a href="#" class="thumb">
+		    <img src="images/page-1_img05.jpg" width="370" height="278" alt="">
+		    <span class="thumb__overlay"></span>
+		  </a>
+		  <h5><a href="#">Large Bed</a></h5>
+		  <p>Large double bed will make your sleep sound and refreshing.</p>
+		</div>
+		<div class="picture last">
+		  <a href="#" class="thumb">
+		    <img src="images/page-1_img06.jpg" width="370" height="278" alt="">
+		    <span class="thumb__overlay"></span>
+		  </a>
+		  <h5><a href="#">Refrigerator Available</a></h5>
+		  <p>You can bring food into your hotel room and put it into refrigerator.</p>
+		</div>
+    </div>
+</div>
+<!-- END Features-->
+
+<!-- Testimonials -->
+<div id="testimonials">
+    <h1>testimonials</h1>
+    <div class="divider"></div>
+    <!-- Owl Carousel -->
+    <div class="owl-carousel">
+      <div class="owl-item">
+        <!-- Blockquote -->
+        <blockquote class="quote">
+          <h5 class="cite">Charles Davis</h5>
+          <p class="cite">Male from United States</p>
+          <img src="images/page-1_img08.jpg" width="265" height="265" alt="">
+          <p class="inset-1">Wow, I'm so happy with your service. You managed to exceed my
+            expectations! You guys are
+            very efficient and
+            I will refer more people to your company!</p>
+          <a href="#" class="btn btn-sm btn-danger">View More</a>
+        </blockquote>
+        <!-- END Blockquote -->
+      </div>
+      <div class="owl-item off">
+        <!-- Blockquote -->
+        <blockquote class="quote">
+          <h5 class="cite">Nathan Kelley</h5>
+          <p class="cite">Male from United States</p>
+          <img src="images/page-1_img09.jpg" width="265" height="265" alt="">
+          <p class="inset-1">I just don't know how to describe your services... They are
+            extraordinary! I am quite happy with them! Just
+            keep up going this way!</p>
+          <a href="#" class="btn btn-sm btn-danger">View More</a>
+        </blockquote>
+        <!-- END Blockquote -->
+      </div>
+      <div class="owl-item off">
+        <!-- Blockquote -->
+        <blockquote class="quote">
+          <h5 class="cite">Kathleen Valdez</h5>
+          <p class="cite">Female from United States</p>
+          <img src="images/page-1_img10.jpg" width="265" height="265" alt="">
+          <p class="inset-1">Thank you very much. I’m impressed with your service. I’ve already told
+            my friends about your company
+            and your quick response, thanks again!</p>
+          <a href="#" class="btn btn-sm btn-danger">View More</a>
+        </blockquote>
+        <!-- END Blockquote -->
+      </div>
+    </div>
+    <!-- END Owl Carousel -->
+</div>
+<!-- END Testimonials-->
+
+<!-- Services -->
+<div id="services">
+    <h1>services</h1>
+    <div class="divider"></div>
+    <div class="services-contents clearfix">
+      <div class="services-left">
+        <h5><a href="#">Reasons to Love Our Hotel</a></h5>
+        <p>The first one is low rates. We offer best price for 2 guests. No booking fees. The staff
+          speaks English. They also speak: Chinese, Filipino,
+          Portuguese, Italian, Hindi, French, Spanish, German and Arabic.</p>
+        <p>You can read nearly 200 independent reviews about our hotel written by our guests. We verify
+          all reviews from guests who have stayed at our hotel. You can find all of them on
+          our site.</p>
+        <h5><a href="#">Now Pets are Allowed</a></h5>
+        <p class="inset-2">We understand people who can’t leave their beloved pets at home while
+          travelling. So, pets
+          are allowed at our hotel on request. Charges may be applicable. But that may happen only if
+          your pet spoils hotel furniture or demands additional care. Maybe grooming or special
+          nutrition. Come to our hotel together with your pet and spend a wonderful time.</p>
+      </div>
+      <div class="services-right">
+        <!-- Marked List -->
+        <ul class="marked-list">
+          <li><a href="#">Complimentary full breakfast</a></li>
+          <li><a href="#">High-speed wireless internet</a></li>
+          <li><a href="#">24-hour, 6,000 sq. ft. fitness center</a></li>
+          <li><a href="#">Available in-room dining</a></li>
+          <li><a href="#">Complimentary for all registered guests</a></li>
+          <li><a href="#">Available from 7 a.m. until 10 p.m. daily</a></li>
+          <li><a href="#">Approximate duration of trip is 10 minutes</a></li>
+          <li><a href="#">Massage available with 24 hour notice.</a></li>
+        </ul>
+        <!-- END Marked List -->
+      </div>
+  </div>
+</div>
+<!-- END Services-->
+
+<!-- Google Map -->
+    <div id="map"></div>
+<!-- END Google Map -->
+
+<!-- Contacts -->
+<div id="contacts">
+    <h1>contacts</h1>
+    <div class="divider"></div>
+    <form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+      <!-- RD Mailform Type -->
+      <input type="hidden" name="form-type" value="contact"/>
+      <!-- END RD Mailform Type -->
+
+      <div class="form-group">
+        <input id="input-name" type="text" name="name" placeholder="Name"/>
+      </div>
+
+      <div class="form-group">
+        <input id="input-email" type="text" name="email" placeholder="Email" />
+      </div>
+
+      <div class="form-group">
+        <input id="input-phone" type="text" name="phone" placeholder="Phone"/>
+      </div>
+
+      <div class="form-group">
+        <textarea id="input-textarea" name="message" placeholder="Message" rows="8" cols="30"></textarea>
+      </div>
+
+      <div class="form-group">
+        <button class="btn" type="submit">Send</button>
+        <div class="mfInfo"></div>
+      </div>
+    </form>
+</div>
+<!-- END Contacts-->
+
+<!-- Start Footer -->
+<div id="footer">
+  <!-- Address -->
+  <address class="contact-info">
+    <p>9863 - 9867 Mill Road,</p>
+    <p>Cambridge, MG09 99HT</p>
+    <p class="last">Freephone: <a href="callto:#">+1 800 559 6580</a></p>
+  </address>
+  <!-- END Address -->
+  <p class="rights">
+    Perfecto &#169; <span id="copyright-year">2016</span>
+    <span class="fw-b">&#183;</span>
+    <a href="index-5.html"> Privacy Policy</a>
+    <!-- {%FOOTER_LINK} -->
+  </p>
+
+<p class="top"><a href="#">go top</a></p>
+</div>
+<!-- End Footer -->
+</body>
+</html> 
